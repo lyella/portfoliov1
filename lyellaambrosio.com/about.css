@@ -1,0 +1,84 @@
+.center {
+      margin: auto;
+      width: 70%;
+      padding: 10px;
+    }
+  @media screen and (max-width: 1070px) {
+    div.all-wrap, nav {
+      width: 600px;
+    }
+  
+    .about-me.move-n-hide {
+      margin-left: -720px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    div.all-wrap {
+      width: 100%;
+      padding: 2rem 30px;
+      box-sizing: border-box;
+      white-space: normal;
+    }
+  
+    nav {
+      display: none;
+      margin-left: 0;
+      margin-top: 0;
+    }
+  
+    .contact {
+      margin-left: 0;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+  @media screen and (max-width: 645px) {
+    .main-content {
+      padding: 0rem;
+    }
+  
+    div.all-wrap {
+      text-align: center;
+    }
+  
+    .info {
+      width: 100%;
+      margin-top: 0.5rem;
+      padding-left: 0;
+      text-align: left;
+      padding: 0 1rem 1rem;
+    }
+  
+    .egw {
+      width: 130px;
+      height: 130px;
+      margin: 0 auto;
+      border-radius: 50%;
+      float: none;
+      display: block;
+      overflow: hidden;
+      border: 2px solid #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  
+    .egw img {
+      margin-top: -23px;
+      margin-left: -1px;
+    }
+  
+    .personal-interest {
+      margin-top: 1rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    div.all-wrap {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    div.all-wrap {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
